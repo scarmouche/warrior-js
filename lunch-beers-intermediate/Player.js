@@ -1,6 +1,8 @@
 class Player {
   playTurn(warrior) {
-    // Cool code goes here
+    var direction = warrior.directionOfStairs();
+
+    warrior.walk(direction);
   }
 }
 
